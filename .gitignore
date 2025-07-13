@@ -430,3 +430,6 @@ docs/rtf/
 *.dvi
 *.ps
 *.pdf
+
+# CMake
+build/
