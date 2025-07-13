@@ -413,3 +413,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Doxygen build output
+docs/html/
+docs/latex/
+docs/xml/
+docs/man/
+docs/rtf/
+*.tag
+*.log
+*.tmp
+*.aux
+*.toc
+*.out
+*.idx
+*.dvi
+*.ps
+*.pdf

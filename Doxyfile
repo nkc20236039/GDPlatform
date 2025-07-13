@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Doxygen設定ファイル
+#-----------------------------------------------------------
+
+# 出力対象のプロジェクト名
+PROJECT_NAME           = "GDPlatform"
+
+# プロジェクト概要
+PROJECT_BRIEF          = "DirectX11を使用したゲーム開発をするための機能を揃えたゲーム基盤です。"
+
+# 出力ディレクトリ
+OUTPUT_DIRECTORY       = docs
+
+# 出力言語
+OUTPUT_LANGUAGE        = Japanese
+ENCODING               = UTF-8
+DOXYFILE_ENCODING      = UTF-8
+
+# 入力ファイル
+INPUT                  = src include
+
+# サブディレクトリも探索
+RECURSIVE              = YES
+
+# Doxygenスタイルのコメント以外も抽出（@paramなどがなくても出力対象）
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+# ブリーフコメントの自動抽出
+JAVADOC_AUTOBRIEF      = YES
+
+# Markdown対応
+USE_MDFILE_AS_MAINPAGE = README.md
+MARKDOWN_SUPPORT       = YES
+
+# クラス図などのUML生成用
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+DOT_MULTI_TARGETS      = YES
+
+# HTML 出力
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# LaTeX 出力（PDF用、必要な場合）
+GENERATE_LATEX         = NO
+
+# ファイル名の短縮を無効にする
+FULL_PATH_NAMES        = YES
+
+# インラインソース表示
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# 検索機能を有効化
+SEARCHENGINE           = YES
