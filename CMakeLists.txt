@@ -11,6 +11,9 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
      "${CMAKE_SOURCE_DIR}/src/*.cpp"
 )
 
+# Windows の Unicode サポートを有効にする
+add_definitions(-DUNICODE -D_UNICODE)
+
 # 実行ファイルターゲットを定義
 add_executable(GDPlatform WIN32 ${SOURCES})
 

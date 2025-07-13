@@ -19,3 +19,4 @@ REM ビルドされた実行ファイルを実行（パスは適宜変更）
 .\Release\GDPlatform.exe
 
 endlocal
+pause
